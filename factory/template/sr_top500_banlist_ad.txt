@@ -8,5 +8,7 @@
 
 {{ad}}
 {{gfwlist}}
+{{top500_proxy}}
+{{manual_proxy}}
 
 FINAL,direct

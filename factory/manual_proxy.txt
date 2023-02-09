@@ -114,3 +114,7 @@ gs-loc.apple.com
 bag.itunes.apple.com
 apple.news
 news.iadsdk.apple.com
+
+# Luke english podcast
+acast.com
+teacherluke.co.uk

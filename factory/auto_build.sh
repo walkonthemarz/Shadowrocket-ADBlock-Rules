@@ -1,12 +1,8 @@
 #!/bin/bash
 
-Path=/root/Shadowrocket-ADBlock-Rules
-cd $Path
+my_path=$(dirname $0)
+cd $my_path
 
-git fetch --all
-git reset --hard origin/master
-
-cd factory
 python3 ad.py
 python3 gfwlist.py
 python3 build_confs.py
