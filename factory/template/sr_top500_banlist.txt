@@ -3,8 +3,6 @@
 # 未包含广告过滤
 #
 
-{{manual_reject}}
-
 {{gfwlist}}
 {{top500_proxy}}
 {{manual_proxy}}
