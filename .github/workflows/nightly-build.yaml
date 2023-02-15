@@ -1,0 +1,18 @@
+name: Nightly Build
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  build-rules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Config Git user name and email
+        run: |
+          git config --global user.name ${{secrets.USER_NAME}}
+          git config --global user.email ${{secrets.USER_EMAIL}}
+      - name: Generate the latest rules
+        run: bash factory/auto_build.sh
+
