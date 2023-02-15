@@ -120,3 +120,6 @@ acast.com
 teacherluke.co.uk
 
 iyf.tv
+
+github.com
+gitlab.com
