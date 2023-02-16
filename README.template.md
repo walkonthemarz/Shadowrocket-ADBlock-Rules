@@ -4,9 +4,10 @@
 
 This project is a fork version from https://github.com/h2y/Shadowrocket-ADBlock-Rules.
 Following changes have been made to keep updating the rules as the original repo was archived years ago and the rules are outdated.
-* Replaced the top500 sites data source with [Amazon Alex top 1million sites](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip).
+* Replaced the top500 sites data source with top 10,000 sites from [Amazon Alex top 1million sites](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip).
 * Optimized the auto_build.sh to prevent the local changes to the repo from being discarded without prompt when running the script. 
 * Updated the below QR codes to link to this repo config files instead of an outdated rule address. 
+* Added Github Actions to automatically build the latest rules nightly.
 ------------------------------------------------------
 
 这里是一系列好用的翻墙规则，针对 [Shadowrocket](https://liguangming.com/Shadowrocket) 开发，支持广告过滤。规则定义了哪些网站可以直连，哪些必须走代理，规则是一个纯文本文件，无法提供翻墙功能。使用 Python 按照一定的规则和模板定期自动生成，并且使用开源的力量，集众人之力逐渐完善。
