@@ -3,7 +3,7 @@ name: Nightly Build
 on:
 #  - push
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   build-rules:
