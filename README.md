@@ -1,7 +1,5 @@
 ## 最完善的 iOS 翻墙规则
 
-### 停止更新公告
-
 This project is a fork version from https://github.com/h2y/Shadowrocket-ADBlock-Rules.
 Following changes have been made to keep updating the rules as the original repo was archived years ago and the rules are outdated.
 * Replaced the top500 sites data source with top 10,000 sites from [Amazon Alex top 1million sites](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip).
