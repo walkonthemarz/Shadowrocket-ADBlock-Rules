@@ -17,14 +17,14 @@ Following changes have been made to keep updating the rules as the original repo
 
 - 黑名单由最新版 GFWList 自动转换；白名单针对全球 top500 站点的连通情况定期自动生成。
 - 自动转换最新版本的 `EasyList, Eaylist China, 乘风规则` 为 SR 规则，全面去除广告且去除重复。
-- 也包括自定义的广告过滤规则，针对 iOS 端的网页广告、App 广告和视频广告。（[常见广告过滤效果统计](https://github.com/h2y/Shadowrocket-ADBlock-Rules/issues/40)）
+- 也包括自定义的广告过滤规则，针对 iOS 端的网页广告、App 广告和视频广告。（[常见广告过滤效果统计](./issues/40)）
 - 提供多个规则文件让大家自由选择或者自由切换使用。
 - 专门针对 ShadowRocket 开发，可以保证与 SR 的兼容性。
 
 
 ## 规则列表
 
-![规则选择指南](https://h2y.github.io/Shadowrocket-ADBlock-Rules/figure/guide.png)
+![规则选择指南](./figure/guide.png)
 
 规则 | 规定代理的网站 | 规定直连的网站 
 --- | ----------- | ------------- 
@@ -58,31 +58,6 @@ Following changes have been made to keep updating the rules as the original repo
 本规则只提供给大家用于更便捷地学习和工作。如果你是对上述观点持反对意见的极端政治人士，或者已被洗脑，请立即离开，本项目不对你开放。
 
 
-## 一些推荐的网站
-
-[**糖客翻墙网**](https://cutt.ly/hhw1ZTi)	:lollipop:
-
-我最终选择的节点提供商。稳定、价格适中。节点遍布全球，提供 iPLC 路线。欢迎大家通过我的邀请链接前去使用。
-
-iPLC 隧道不经过拥堵的公网出国、不经过防火墙，是目前最优秀的路线，速度谁用谁知道，建议选择。
-
-**[IP111](http://ip111.cn/)**
-
-这是一个很棒的 IP 查询网站，支持同时查询你的境内境外 IP，以及谷歌 IP。
-
-**[wikiHow](https://zh.wikihow.com/)**
-
-如何帮助心碎的朋友？如何给吊扇加油？你想知道的一切都可以在这里找到答案，最关键是采用漫画的方式挺有意思。
-
-**[Google Photos](https://www.google.com/photos/about/)**
-
-谷歌云相册提供无限空间保存手机中的日常照片，并且会对照片智能分类，体验很好。
-
-**<https://hzy.pw/>**
-
-我是一名大学生，沉迷技术无法自拔。这是我的个人博客，会分享一些有趣的东西和自己的观点，欢迎来逛逛~
-
-
 ## 常见问题
 
 - **上千行的代理规则，会对上网速度产生影响吗？**
@@ -109,13 +84,13 @@ iPLC 隧道不经过拥堵的公网出国、不经过防火墙，是目前最优
 
 ## 问题反馈
 
-任何问题欢迎在 [Issues](https://github.com/h2y/Shadowrocket-ADBlock-Rules/issues) 中反馈，如果没有账号可以去 [我的网站](https://hzy.pw/p/2096#comments) 中留言。
+任何问题欢迎在 [Issues](./issues) 中反馈。
 
 你的反馈会让此规则变得更加完美。
 
 **如何贡献代码？**
 
-通常的情况下，对 [factory 目录](https://github.com/h2y/Shadowrocket-ADBlock-Rules/tree/master/factory) 下的 3 个 `manual_*.txt` 文件做对应修改即可。
+通常的情况下，对 [factory 目录](./factory) 下的 3 个 `manual_*.txt` 文件做对应修改即可。
 
 
 ## 捐助
