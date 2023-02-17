@@ -1,9 +1,9 @@
 ## 最完善的 iOS 翻墙规则
 
-This project is a fork version from https://github.com/h2y/Shadowrocket-ADBlock-Rules.
+This project is a forked version from https://github.com/h2y/Shadowrocket-ADBlock-Rules.  
 Following changes have been made to keep updating the rules as the original repo was archived years ago and the rules are outdated.
 * Replaced the top500 sites data source with top 10,000 sites from [Amazon Alex top 1million sites](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip).
-* Optimized the auto_build.sh to prevent the local changes to the repo from being discarded without prompt when running the script. 
+* Optimized the `factory/auto_build.sh` to prevent the local changes to the repo from being discarded without prompt when running the script. 
 * Updated the below QR codes to link to this repo config files instead of an outdated rule address. 
 * Added Github Actions to automatically build the latest rules nightly.
 ------------------------------------------------------
