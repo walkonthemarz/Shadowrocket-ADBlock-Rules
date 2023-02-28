@@ -399,6 +399,7 @@ paramountplus.com
 
 # New Bing
 bing.com
+bing.net
 
 # DNS Leak
 dnsleaktest.com
