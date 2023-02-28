@@ -123,3 +123,6 @@ iyf.tv
 
 github.com
 gitlab.com
+
+bing.com
+bing.net
