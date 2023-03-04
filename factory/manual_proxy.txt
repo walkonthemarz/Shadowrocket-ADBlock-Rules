@@ -465,3 +465,6 @@ teacherluke.co.uk
 
 # IYF
 iyf.tv
+
+# NFT Chat
+nftychat.xyz
