@@ -128,3 +128,7 @@ bing.com
 bing.net
 
 nftychat.xyz
+herokuapp.com
+walletconnect.com
+alchemy.com
+infura.io
