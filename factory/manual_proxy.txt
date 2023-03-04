@@ -468,3 +468,6 @@ iyf.tv
 
 # NFT Chat
 nftychat.xyz
+
+# Web3
+alchemy.com
