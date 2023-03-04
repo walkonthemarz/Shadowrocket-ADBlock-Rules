@@ -126,3 +126,5 @@ gitlab.com
 
 bing.com
 bing.net
+
+nftychat.xyz
