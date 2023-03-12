@@ -15,3 +15,6 @@ cabdirect.org
 ieee.org
 nature.com
 osapublishing.org
+
+itunes.apple.com
+icloud.com.cn
