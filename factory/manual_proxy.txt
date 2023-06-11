@@ -471,3 +471,6 @@ nftychat.xyz
 
 # Web3
 alchemy.com
+
+# Wondery
+wondery.com
