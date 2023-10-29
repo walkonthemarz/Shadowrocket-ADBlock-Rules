@@ -474,3 +474,6 @@ alchemy.com
 
 # Wondery
 wondery.com
+
+# Pi
+heypi.com
