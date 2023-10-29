@@ -477,3 +477,6 @@ wondery.com
 
 # Pi
 heypi.com
+
+# Slack
+slack.com
