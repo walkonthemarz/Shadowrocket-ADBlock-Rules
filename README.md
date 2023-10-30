@@ -16,12 +16,12 @@ Rules | Proxied Sites | Direct Sites
 [Blacklist](#Blacklist) |   |  
 [Whitelist + Removing Ads](#Whitelist--Ads) | Other sites | Top500 sites that can be accessed directly
 [Whitelist](#Whitelist) |   |  
-[Separate sites foreign + Removing Ads](#Separate sites foreign--Ads) | Foreign sites | Chines sites 
-[Separate sites foreign](#Separate sites foreign) |   |  
-[Direct globally + Removing Ads](#Direct globally) | / | All 
-[Proxy globally + Removing Ads](#Proxy globally--Ads) | All | /
-[Going back to China + Removing Ads](#Going back to China--Ads) | Chines sites | foreign sites 
-[Going back to China](#Going back to China) |   |  
+[Separate sites foreign + Removing Ads](#Separate-sites-foreign--Ads) | Foreign sites | Chines sites 
+[Separate sites foreign](#Separate-sites-foreign) |   |  
+[Direct globally + Removing Ads](#Direct-globally) | / | All 
+[Proxy globally + Removing Ads](#Proxy-globally--Ads) | All | /
+[Going back to China + Removing Ads](#Going-back-to-China--Ads) | Chines sites | foreign sites 
+[Going back to China](#Going-back-to-China) |   |  
 
 
 ## Sponsorship
