@@ -16,10 +16,10 @@ Rules | Proxied Sites | Direct Sites
 [Blacklist](#Blacklist) |   |  
 [Whitelist + Removing Ads](#Whitelist--Ads) | Other sites | Top500 sites that can be accessed directly
 [Whitelist](#Whitelist) |   |  
-[Separate sites foreign + Removing Ads](#Separate sites foreign--Ads) |  Foreign sites | Chines sites 
+[Separate sites foreign + Removing Ads](#Separate sites foreign--Ads) | Foreign sites | Chines sites 
 [Separate sites foreign](#Separate sites foreign) |   |  
 [Direct globally + Removing Ads](#Direct globally) | / | All 
-[Proxy globally + Removing Ads](#Proxy globally + Removing Ads) | All | /
+[Proxy globally + Removing Ads](#Proxy globally--Ads) | All | /
 [Going back to China + Removing Ads](#Going back to China--Ads) | Chines sites | foreign sites 
 [Going back to China](#Going back to China) |   |  
 
@@ -29,7 +29,7 @@ Rules | Proxied Sites | Direct Sites
 This project doesn't accept any donations!
 ----------------------------------------
 
-## Blacklist + Removing Ads
+## Blacklist + Ads
 
 Including foreign sites cann't be accessed, others direct mode default.
 
@@ -104,7 +104,7 @@ URL:[https://raw.githubusercontent.com/walkonthemarz/Shadowrocket-ADBlock-Rules/
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fraw.githubusercontent.com%2Fwalkonthemarz%2FShadowrocket-ADBlock-Rules%2Fmaster%2Fsr_direct_banad.conf)
 
 
-## Proxy globally + Removing Ads
+## Proxy globally + Ads
 
 - Direct: Local network
 - Proxy: Other requests

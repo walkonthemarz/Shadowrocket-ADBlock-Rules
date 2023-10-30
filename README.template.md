@@ -16,10 +16,10 @@ Rules | Proxied Sites | Direct Sites
 [Blacklist](#Blacklist) |   |  
 [Whitelist + Removing Ads](#Whitelist--Ads) | Other sites | Top500 sites that can be accessed directly
 [Whitelist](#Whitelist) |   |  
-[Separate sites foreign + Removing Ads](#Separate sites foreign--Ads) |  Foreign sites | Chines sites 
+[Separate sites foreign + Removing Ads](#Separate sites foreign--Ads) | Foreign sites | Chines sites 
 [Separate sites foreign](#Separate sites foreign) |   |  
 [Direct globally + Removing Ads](#Direct globally) | / | All 
-[Proxy globally + Removing Ads](#Proxy globally + Removing Ads) | All | /
+[Proxy globally + Removing Ads](#Proxy globally--Ads) | All | /
 [Going back to China + Removing Ads](#Going back to China--Ads) | Chines sites | foreign sites 
 [Going back to China](#Going back to China) |   |  
 
@@ -29,7 +29,7 @@ Rules | Proxied Sites | Direct Sites
 This project doesn't accept any donations!
 ----------------------------------------
 
-## Blacklist + Removing Ads
+## Blacklist + Ads
 
 Including foreign sites cann't be accessed, others direct mode default.
 
@@ -104,7 +104,7 @@ URL:[{{github_raw_content_endpoint}}sr_direct_banad.conf]({{github_raw_content_e
 ![QR Code]({{qr_service_endpoint}}{{url_encoded_github_raw_content_endpoint}}sr_direct_banad.conf)
 
 
-## Proxy globally + Removing Ads
+## Proxy globally + Ads
 
 - Direct: Local network
 - Proxy: Other requests
