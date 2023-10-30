@@ -480,3 +480,6 @@ heypi.com
 
 # Slack
 slack.com
+
+# Call Annie
+callannie.ai
