@@ -10,5 +10,5 @@ python3 qrcode.py
 cd ..
 
 git add .
-git commit -m "Nightly build" -m "已合并最新的去广告规则及 GFWList"
+git commit -m "Daily build" -m "Already merged latest Ads rules and GFWList"
 git push
