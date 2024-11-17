@@ -142,3 +142,5 @@ heypi.com
 slack.com
 callannie.ai
 linkedin.com
+tiktok.com
+tiktokcdn.com
