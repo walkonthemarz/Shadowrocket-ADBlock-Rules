@@ -147,3 +147,6 @@ tiktokcdn.com
 tiktok.us
 tiktokv.us
 tiktokv.com
+tiktokcdn-us.com
+musical.ly
+tiktok.net
