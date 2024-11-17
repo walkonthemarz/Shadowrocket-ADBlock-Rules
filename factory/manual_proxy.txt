@@ -483,3 +483,6 @@ slack.com
 
 # Call Annie
 callannie.ai
+
+# TikTok
+tiktok.us
