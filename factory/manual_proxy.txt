@@ -486,3 +486,5 @@ callannie.ai
 
 # TikTok
 tiktok.us
+musical.ly
+tiktok.net
