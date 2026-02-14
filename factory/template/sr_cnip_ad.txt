@@ -12,4 +12,6 @@ GEOIP,CN,DIRECT
 
 {{ad}}
 
+{{manual_proxy}}
+
 FINAL,proxy
