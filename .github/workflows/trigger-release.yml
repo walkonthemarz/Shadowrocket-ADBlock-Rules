@@ -19,4 +19,5 @@ jobs:
       - name: Dispatch release workflow
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: gh workflow run release.yml --ref release
