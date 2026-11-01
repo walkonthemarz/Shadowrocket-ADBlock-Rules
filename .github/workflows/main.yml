@@ -1,19 +1,10 @@
-name: Build Shadowrocket Rules
+name: Build Shadowrocket Rules (manual)
 
 on:
-  schedule:
-    # 每日8时开始
-    - cron:  '0 23 * * *'
-  
-  push:
-    branches:
-      - build
-    paths-ignore: 
-      - '**.md'
-      - 'LICENSE'
-
+  # Disabled: the release branch workflow builds from this branch.
+  # Kept for manual runs only.
   workflow_dispatch:
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
