@@ -6,4 +6,4 @@
 [MITM]
 hostname = *.google.cn,*.googlevideo.com
 
-# Made with Love from https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
+# Made with Love from https://github.com/walkonthemarz/Shadowrocket-ADBlock-Rules

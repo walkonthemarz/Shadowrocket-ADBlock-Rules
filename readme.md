@@ -29,7 +29,7 @@
 - 将 [Apple及其CDN域名](https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf) 进行优化；
 - 方便的快捷指令与自动化联动，每天自动更新规则；
 - 增加使用代理组的懒人配置；
-- 由于世界排名 top 500 网站列表已无法通过无账户/免费方式取得，故原来的 top500 检测方法失效。我已根据旧的 top500 榜单重构了新的 top500 网站连接情况表。**同时，希望大家可以帮助 pull requests 一份最新的 top500 榜单: [格式](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/build/factory/resultant/top500_manual.list)**
+- 由于世界排名 top 500 网站列表已无法通过无账户/免费方式取得，故原来的 top500 检测方法失效。我已根据旧的 top500 榜单重构了新的 top500 网站连接情况表。**同时，希望大家可以帮助 pull requests 一份最新的 top500 榜单: [格式](https://github.com/walkonthemarz/Shadowrocket-ADBlock-Rules/blob/build/factory/resultant/top500_manual.list)**
 - **所有发布的规则都会在每天北京时间 8:00 更新发布**
 
 
@@ -121,13 +121,13 @@ INTP | Jack of all trades | I use Arch BTW
 
 ## 问题反馈
 
-任何问题欢迎在 [Issues](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/issues) 中反馈。
+任何问题欢迎在 [Issues](https://github.com/walkonthemarz/Shadowrocket-ADBlock-Rules/issues) 中反馈。
 
 你的反馈会让此规则变得更加完美。
 
 **如何贡献代码？**
 
-通常的情况下，对 [factory 目录](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/tree/build/factory) 下的 3 个 `manual_*.txt` 文件做对应修改即可。**Pull requests 请发送至 build 分支。**
+通常的情况下，对 [factory 目录](https://github.com/walkonthemarz/Shadowrocket-ADBlock-Rules/tree/build/factory) 下的 3 个 `manual_*.txt` 文件做对应修改即可。**Pull requests 请发送至 build 分支。**
 
 **如何拥有自己的定制化规则？**
 
@@ -325,4 +325,4 @@ INTP | Jack of all trades | I use Arch BTW
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/Johnshall/Shadowrocket-ADBlock-Rules-Forever.svg)](https://starchart.cc/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
+[![Stargazers over time](https://starchart.cc/walkonthemarz/Shadowrocket-ADBlock-Rules.svg)](https://starchart.cc/walkonthemarz/Shadowrocket-ADBlock-Rules)
