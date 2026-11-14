@@ -1,0 +1,53 @@
+name: Sync upstream source
+
+on:
+  schedule:
+    # 21:30 UTC, before the nightly release build at 23:00 UTC
+    - cron: '30 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out build branch
+        uses: actions/checkout@v4
+        with:
+          ref: build
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Merge upstream build branch
+        id: merge
+        run: |
+          git remote add upstream https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever.git || \
+            git remote set-url upstream https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever.git
+          git fetch upstream build
+
+          if git merge-base --is-ancestor upstream/build HEAD; then
+            echo "Upstream build is already included."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git merge --no-edit upstream/build
+          git push origin HEAD:build
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger release build
+        if: steps.merge.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run release.yml --ref release
